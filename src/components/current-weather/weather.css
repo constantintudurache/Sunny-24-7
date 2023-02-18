@@ -1,0 +1,72 @@
+.weather-card {
+    width: 50%;
+    margin: 5vmin auto 0 auto;
+    padding: 2vmin 3vmin 3vmin 3vmin;
+    border-radius: 1vmin;
+    box-shadow: 0.5vmin -0.1vmin 1vmin 0.1vmin rgb(29, 85, 138);
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 186, 233);
+}
+
+.primary-info, .secondary-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.city {
+    font-weight: 700;
+    font-size: 7vmin;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.2vmin;
+}
+
+.weather-description {
+    font-weight: 500;
+    font-size: 6vmin;
+    line-height: 1;
+    margin: 0;
+}
+
+.temperature {
+    font-weight: 700;
+    font-size: 15vmin;
+    letter-spacing: -0.2vmin;
+    margin: 2vmin 0;
+}
+
+.details {
+    width: 100%;
+    padding-left: 0;
+}
+
+.parameter-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 6vmin;
+}
+
+.parameter-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: 5vmin;
+}
+
+.parameter-label.header {
+    font-weight: 700;
+    letter-spacing: 0.2vmin;
+}
+
+.css-b62m3t-container {
+    font-size: 10vmin;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+.title {
+  font-size: 5vmin;
+  font-weight: 600;
+}
+
+.daily-item {
+  background-color: rgb(136, 186, 233);
+  border-radius: 4vmin;
+  width: 70%;
+  height: 10vh;
+  margin: 5vmin auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 5vmin;
+  padding: 1vmin 3vmin 3vmin;
+}
+
+.day {
+  color: black;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 3vmin;
+}
+
+.description {
+  flex: 1 1;
+  margin-right: 3vmin;
+  text-align: right;
+}
+
+.min-max {
+  color: #404040;
+}
+
+.daily-details-grid {
+  display: grid;
+  flex: 1 1;
+  column-gap: 10vmin;
+  row-gap: 0;
+  grid-template-columns: auto auto;
+  padding: 5vmin 10svmin;
+  margin: auto;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  height: 6vmin;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4vmin;
+}
+
+.daily-details-grid-item label:first-child {
+    color: #6c6c6c;
+    font-weight: 600;
+}
+
+.daily-details-grid-item label:last-child {
+    color: #000000;
+    
+}

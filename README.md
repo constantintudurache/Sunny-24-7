@@ -32,13 +32,4 @@ Now you can go further and create your own web based Weather application!
 - There is a `<div id="root">` tag without children when the page loads in
 - All the contents are placed and removed by javascript
 
-## Hints
-
-- There are multiple APIs you can use for weather:
-    - [WeatherApi](https://www.weatherapi.com/docs/).
-    - [OpenWeatherMap](https://openweathermap.org/api)
-    - [OpenMeteo](https://open-meteo.com/en)
-    - And many other more, just search for "free weather API"
-- For searching for citites try to find an API that exposes a list of cities.
-- For students that want to play around with frameworks, this project can also be implemented using a frontend framework like React or Vue.
 
